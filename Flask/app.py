@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request
 from markupsafe import escape
 import flask_monitoringdashboard as dashboard
 from flask_sqlalchemy import SQLAlchemy
